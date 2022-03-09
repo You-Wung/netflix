@@ -23,7 +23,7 @@ const Profile = (props) => {
 		const clickHandler = (e) => {
 			props.moveToVid(e.target.id);
 		};
-		
+
 		onValue(userRef, (snapshop) => {
 			const users = snapshop.val();
 			let email = "";
@@ -62,7 +62,7 @@ const Profile = (props) => {
 				setJsxProf(JSX_profiles);
 			});
 		});
-	}, [clickHandler, db, token, userRef]);
+	}, [props, db, token, userRef]);
 
 	return (
 		<div className={classes.modal}>
