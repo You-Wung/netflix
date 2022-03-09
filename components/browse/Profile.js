@@ -14,15 +14,16 @@ const Profile = (props) => {
 	const userRef = ref(db, "user/");
 	const [jsxProf, setJsxProf] = useState();
 	
-	const clickHandler = (e) => {
-		props.moveToVid(e.target.id);
-	};
-
+	
 	useEffect(() => {
 		let browseRef;
 		let JSX_profiles;
 		let profiles;
-
+		
+		const clickHandler = (e) => {
+			props.moveToVid(e.target.id);
+		};
+		
 		onValue(userRef, (snapshop) => {
 			const users = snapshop.val();
 			let email = "";
@@ -33,7 +34,7 @@ const Profile = (props) => {
 					break;
 				}
 			}
-
+			
 			//console.log(email);
 
 			browseRef = ref(db, "browse/" + email);
