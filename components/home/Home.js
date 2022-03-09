@@ -6,7 +6,7 @@ import DevicePart from "./DevicePart";
 import Kids from "./Kids";
 import Questions from "./Questions";
 import Exp from "./Exp";
-import Main from "./main";
+import Main from "./Main";
 
 const Home = () => {
 	const router = useRouter();
