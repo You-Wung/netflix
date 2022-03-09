@@ -61,7 +61,7 @@ const Profile = (props) => {
 				setJsxProf(JSX_profiles);
 			});
 		});
-	}, []);
+	}, [clickHandler, db, token, userRef]);
 
 	return (
 		<div className={classes.modal}>

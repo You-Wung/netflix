@@ -16,7 +16,7 @@ const ThirdModal = (props) => {
 	useEffect(() => {
 		set(ref(db, "user/" + emailReplaced), { email: emailReplaced, token: emailToken });
 		set(ref(db, "browse/" + emailReplaced), { user: { img: "https://occ-0-993-1360.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAAFMAEDzrjFngWzmfzjBwDCp5aArul_aesBXbpYZgdo9FSha3M71rrn_IpfzTfPwpJIAN_zMpj9UOfJXwvOnvDL3OFCA.png?r=f16" } });
-	}, []);
+	}, [db, emailReplaced, emailToken]);
 
 	const clickHandler = () => {
 		router.push("/login");
