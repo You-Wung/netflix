@@ -1,0 +1,91 @@
+
+.con {
+	position: absolute;
+	width: calc(100% - 10px);
+	margin-top: -5px;
+	background-color: rgb(29, 29, 29);
+	overflow: hidden;
+}
+.con:hover {
+	overflow: visible;
+}
+
+.con button:hover {
+	border: 2.5px solid white;
+}
+.con button:hover ~ .con a {
+	display:block;
+	position: relative;
+	right: -10px;
+	top: -15px;
+}
+/*.btn1 {
+	background-color:rgb(45, 45, 45);
+	border: 1.5px solid white;
+	color: white;
+	font-size: 1.5rem;
+	border-radius:75px;
+	width: 32px;
+	height: 32px;
+}*/
+.btn2 {
+	float: right;
+	background-color:rgb(45, 45, 45);
+	cursor: pointer;
+	border: 1.5px solid white;
+	border-radius:75px;
+	color: white;
+	font-size: 1rem;
+	line-height: 5px;
+	font-weight: 500;
+	width: 30px;
+	height: 30px;
+}
+.info {
+	display: flex;
+	padding-left: 5px;
+	padding-top: 8px;
+	font-size: 80%;
+}
+.info p {
+	padding-right: 10px;
+}
+.age {
+	border: 1px solid white;
+	top: -2px;
+	padding-left: 10px;
+	margin-right: 5px !important;
+	margin-left: -3px;
+	height: 15px;
+}
+.tooltiptext {
+  visibility: hidden;
+	background-color:rgb(45, 45, 45);
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 7px 0;
+  position: absolute;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 5px;
+}
+.tooltip .tooltipTop {
+	pointer-events: none;
+  width: 100px;
+  bottom: 150%;
+  left: 90%;
+  margin-left: -60px;
+}
+.tooltip .tooltipTop::after {
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-color: rgb(45, 45, 45) transparent transparent transparent;
+}

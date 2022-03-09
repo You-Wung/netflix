@@ -1,0 +1,214 @@
+@keyframes slide {
+  from {
+		max-height: 0rem;
+  }
+  to {
+		max-height: 30rem;
+  }
+}
+
+
+.general h1 {
+	text-align: center;
+	font-size: 4rem;
+}
+
+.general {
+	/*display: flex;*/
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: black;
+	color: white;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.list {
+	text-align: left;
+	width: 100%;
+	padding-top: 4rem;
+}
+
+.list li {
+	line-height: 4.5rem;
+	list-style: none;
+	width: 50rem;
+	font-size: 1.5rem;
+	height: 4rem;
+	background-color: rgb(48, 48, 48);
+	margin: auto;
+	margin-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 1rem;
+}
+
+.list p {
+	width: 50rem;
+	font-size: 1.4rem;
+	height: auto;
+	background-color: rgb(48, 48, 48);
+	margin: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
+	padding-left: 2rem;
+}
+
+
+.exp {
+	animation: slide .5s;
+	overflow: hidden;
+}
+
+.btn {
+	float: right;
+	width:50px;
+	height:50px;
+	position:relative;
+	text-indent:-9999px;
+	background: 0;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	pointer-events: none;
+}
+
+.btn:before,.btn:after{
+  content:'';
+	width: 25px;
+  height: 2px;
+  position:absolute;
+  left:50%;
+  top: 60%;
+  border-radius: 5px;
+  background:white
+}
+
+.btn::before {
+  transform:translate(-50%,-50%) rotate(-45deg)
+}
+.btn::after {
+  transform:translate(-50%,-50%) rotate(45deg)
+}
+
+.btn2 {
+	float: right;
+	width: 50px;
+	height: 50px;
+	position:relative;
+	text-indent:-9999px;
+	background: 0;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	pointer-events: none;
+}
+
+.btn2:before,.btn2:after{
+  content:'';
+  width: 25px;
+  height: 2px;
+  position:absolute;
+  left:50%;
+  top:60%;
+  border-radius: 5px;
+  background:white
+}
+
+.btn2::before {
+  transform:translate(-50%,-50%);
+}
+.btn2::after {
+  transform:translate(-50%,-50%) rotate(90deg)
+}
+
+
+.emailRequired {
+	border: 0;
+	outline: none;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+	width: 28rem;
+	height: 3rem;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	box-shadow: 0 -4px 0 0 orange inset;
+}
+
+.mail {
+	top: 2rem;
+	width: fit-content;
+	text-align: center;
+	margin: auto;
+}
+
+.mail h2 {
+	padding: 1rem;
+	font-weight: 400;
+}
+
+.mail p {
+	text-align: left;
+	font-size: 1rem;
+	color: orange;
+	width: 40rem;
+	margin: 0 auto;
+}
+
+.mail input {
+	border: 0;
+	outline: none;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+	width: 28rem;
+	height: 3rem;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+}
+
+.mail input + label {
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 10%;
+  height: 0;
+}
+
+.mail input:focus + label > span,
+.mail input:valid + label > span {
+	top: -45px;
+	font-size: 16px;
+}
+
+.mail input + label > span {
+	margin: 0;
+  position: absolute;
+  color: rgb(140, 140, 140);
+  font-size: 16px;
+	margin-top: 20px;
+  left: -28rem;
+	top:-30px;
+	z-index: 0;
+	pointer-events: none;
+	-webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.mail button {
+	border: 0;
+	width: 13rem;
+	height: 4rem;
+	color: white;
+	background-color: rgb(211, 37, 48);
+	font-size: 1.5rem;
+	top: -6px;
+}
+
+.mail button:hover {
+	background-color: rgb(251, 37, 48);
+}

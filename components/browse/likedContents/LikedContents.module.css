@@ -1,0 +1,50 @@
+.main {
+	color: white;
+	width: 100%;
+}
+.onCon {
+	width: 100%;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin-bottom: 2rem;
+}
+.con {
+	display: flex;
+  transition: all 300ms ease 100ms;
+}
+.box {
+	position: relative;
+	/*width: 16.66%;*/
+	width: 100%;
+	padding-right: 10px;
+	transition: transform 300ms ease 100ms;
+}
+.con:hover .box {
+	transform: translateX(-10%);
+  transition: transform 300ms ease 100ms;
+}
+
+.box:hover ~ .box {
+	transform: translateX(10%);
+  transition: transform 300ms ease 100ms;
+}
+.con .box:hover {
+	transform: scale(1.2);
+	z-index: 999;
+  transition: all 300ms ease 100ms;
+}
+.con:hover .frontbox {
+	transform: translateX(-22%);
+  transition: all 300ms ease 100ms;
+}
+.lastbox:hover {
+	transform: scale(1.2) translateX(-10%) !important;
+  transition: all 300ms ease 100ms;
+}
+.blankBox {
+	position: relative;
+	background-color: red;
+	width: 16.66%;
+	padding-right: 10px;
+	transition: transform 300ms ease 100ms;
+}

@@ -1,0 +1,41 @@
+.devices {
+	margin: 0 6rem;
+	padding-bottom: 2rem;
+}
+
+.modal {
+	margin: 0 auto;
+	left: 1rem;
+	margin-top: 7rem;
+	width: 30rem;
+	height: 32rem;
+	text-align: center;
+}
+
+.modal p {
+	padding-bottom: 1rem;
+}
+
+.modal h2 {
+	margin: 0 3rem;
+	font-size: 2.2rem;
+	padding-bottom: 1rem;
+}
+
+.modal h5 {
+	margin: 0 5rem;
+	font-weight: 350;
+	font-size: 1.1rem;
+}
+
+.modal button {
+	margin-top: 1rem;
+	border: none;
+	background-color: rgb(211, 47, 38);
+	color: white;
+	border-radius: 8px;
+	width: 23rem;
+	height: 4rem;
+	font-weight: 200;
+	font-size: 1.5rem;
+}

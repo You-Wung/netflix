@@ -1,0 +1,49 @@
+.general {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	height: 30rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+.letters {
+	width: 35%;
+	margin-left: 5rem;
+}
+
+.letters h1 {
+	font-size: 3rem;
+	padding-bottom: 1rem;
+}
+
+.letters p {
+	font-size: 1.5rem;
+}
+
+.tv {
+	position: relative;
+	width: 33rem;
+	height: 25rem;
+}
+
+.video {
+	position: absolute;
+	top: 50px;
+ 	right: 66px;
+	height: 280px;
+	width: 393px;
+	z-index: 20;
+}
+
+.image {
+	position: absolute;
+	z-index: 999;
+}
+
+.underline {
+	background-color: rgb(34, 34, 34);
+	height: 0.5rem;
+}

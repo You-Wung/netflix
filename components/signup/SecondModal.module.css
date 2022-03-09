@@ -1,0 +1,141 @@
+
+.modal {
+	margin: 0 auto;
+	left: 1rem;
+	margin-top: 4rem;
+	width: 30rem;
+	height: 35rem;
+}
+
+
+.modal h1 {
+	padding: 1rem 0;
+	line-height: 2.5rem;
+}
+
+.modal p {
+	font-size: 1rem;
+}
+
+.inputs p {
+	color: red;
+	font-size: 1rem;
+	padding-top: 0.5rem;
+}
+
+.inputs input {
+	outline: none;
+	border: none;
+	font-size: 1.2rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	width: 28rem;
+	height: 3rem;
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid black;
+	margin-top: 0.5rem;
+	overflow-x: hidden;
+}
+
+.inputs input:focus + label > span,
+.inputs input:valid + label > span {
+	top: -45px;
+	font-size: 16px;
+}
+
+.inputs input + label > span {
+	margin: 0;
+  position: absolute;
+  color: rgb(140, 140, 140);
+  font-size: 16px;
+	margin-top: 20px;
+  left: -28rem;
+	top:-30px;
+	z-index: 0;
+	pointer-events: none;
+	-webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.check input:checked + label::before {
+	position: absolute;
+	pointer-events: none;
+	content: '✓';
+	font-size: 2rem;
+	left: -2.6rem;
+	top: 0.1rem;
+}
+
+.check label {
+	top: 0.7rem;
+	width: 25rem;
+	margin-left: 1rem;
+}
+
+.check input {
+	width: 35px;
+	height: 35px;
+	top: 0.2rem;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+}
+
+.check {
+	display: flex;
+}
+
+.modal button:hover {
+	background-color: rgb(231, 37, 48);
+}
+
+.modal button {
+	margin-top: 2rem;
+	border: none;
+	background-color: rgb(211, 47, 38);
+	color: white;
+	border-radius: 8px;
+	width: 29rem;
+	height: 4rem;
+	font-weight: 200;
+	font-size: 1.5rem;
+}
+
+.readOnly input {
+	outline: none;
+	border: none;
+	font-size: 1.2rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	width: 28rem;
+	height: 3rem;
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid black;
+	margin-top: 0.5rem;
+	overflow-x: hidden;
+}
+.readOnly input + label > span {
+	margin: 0;
+  position: absolute;
+  color: rgb(140, 140, 140);
+  font-size: 16px;
+	margin-top: 20px;
+  left: -28rem;
+	top:-45px;
+	z-index: 0;
+}
+
+.a {
+	color: red;
+	font-size: 0.9rem;
+	padding-top: 0.5rem;
+}
+
+.inputs > .redBord {
+	border: 1px solid red;
+}
+
+.check > .redBord {
+	border: 1px solid red;
+	color: red;
+}

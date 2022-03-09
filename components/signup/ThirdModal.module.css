@@ -1,0 +1,58 @@
+
+.modal {
+	margin: 0 auto;
+	left: 1rem;
+	margin-top: 3rem;
+	width: 30rem;
+	height: 35rem;
+	text-align: center;
+}
+
+.modal h1 {
+	padding-bottom: 1rem;
+}
+
+.modal > .check {
+	background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Checkmark.png)
+					no-repeat 50% 50%;
+	background-size: 10% auto;
+	height: 4rem;
+	margin-bottom: 0.5rem;
+}
+
+.modal > .list {
+	display: flex;
+	justify-content: center;
+}
+
+.modal > .list p {
+	padding: 1rem;
+	padding-right: 0;
+	padding-top: 0.8rem;
+	font-size: 30px;
+	color: red;
+}
+
+.modal > .list h5 {
+	padding: 0.7rem;
+	width: 17rem;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.modal button:hover {
+	background-color: rgb(231, 37, 48);
+}
+
+.modal button {
+	margin-top: 1rem;
+	border: none;
+	background-color: rgb(211, 47, 38);
+	color: white;
+	border-radius: 8px;
+	width: 24rem;
+	height: 4rem;
+	font-weight: 200;
+	font-size: 1.5rem;
+}

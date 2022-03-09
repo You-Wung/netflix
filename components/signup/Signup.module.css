@@ -1,0 +1,27 @@
+.nav {
+	height: 6.5rem;
+	border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+.nav a {
+	color: black;
+	left: 90%;
+	top: 2.5rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.logo {
+	position: absolute;
+	width: 12rem;
+	height: auto;
+	top: 1.5rem;
+	left: 2.5rem;
+	cursor: pointer;
+}
+

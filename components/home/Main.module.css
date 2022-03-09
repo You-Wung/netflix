@@ -1,0 +1,149 @@
+.general {
+	/*background-color: black ;*/
+	background: radial-gradient(rgb(40, 40, 40), rgb(0, 0, 0) 80%);
+	height: 45rem;
+}
+
+
+.background {
+	position: absolute;
+	background-image: url('../../img/now.jpeg');
+	opacity: 0.2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.logo {
+	position: absolute;
+	width: 13rem;
+	height: auto;
+	top: 2rem;
+	left: 3rem;
+}
+
+.button {
+	position: absolute;
+	top: 3rem;
+	right: 5rem;
+	width: 70px;
+	height: 35px;
+	border: rgb(211, 37, 48);
+	border-radius: 5px;
+	background-color:rgb(211, 37, 48);
+	color: white;
+}
+
+.summary {
+	text-align: center;
+	color: white;
+	width: 100%;
+	top:15rem;
+}
+
+.summary h1 {
+	display: inline-block;
+	width: 35rem;
+	font-size: 3rem;
+	padding-bottom: 1rem;
+}
+
+.summary h3 {
+	display: inline-block;
+	font-weight: 340;
+	width: 40%;
+	font-size: 2rem;
+	padding-bottom: 3rem;
+}
+
+.summary h4 {
+	display: inline-block;
+	font-weight: 340;
+	width: 100%;
+	font-size: 1.3rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.summary p {
+	color: orange;
+	width: 40rem;
+	margin: auto;
+	text-align: left;
+}
+
+.emailRequired {
+	border: 0;
+	outline: none;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+	width: 28rem;
+	height: 3rem;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	box-shadow: 0 -4px 0 0 orange inset;
+}
+
+.summary input {
+	border: 0;
+	outline: none;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+	width: 28rem;
+	height: 3rem;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+}
+
+.summary input + label {
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 10%;
+  height: 0;
+}
+
+.summary input:focus + label > span,
+.summary input:valid + label > span {
+	top: -45px;
+	font-size: 16px;
+}
+
+.summary input + label > span {
+	margin: 0;
+  position: absolute;
+  color: rgb(140, 140, 140);
+  font-size: 16px;
+	margin-top: 20px;
+  left: -28rem;
+	top:-30px;
+	z-index: 0;
+	pointer-events: none;
+	-webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.summary button {
+	border: 0;
+	width: 13rem;
+	height: 4rem;
+	color: white;
+	background-color: rgb(211, 37, 48);
+	font-size: 1.5rem;
+	top: -6px;
+}
+
+.summary button:hover {
+	background-color: rgb(251, 37, 48);
+}
+
+.underline {
+	/*position: absolute;*/
+	background-color: rgb(34, 34, 34);
+	height: 0.5rem;
+}

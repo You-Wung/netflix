@@ -1,0 +1,37 @@
+@keyframes smoothAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.modal {
+	margin: 0 auto;
+	padding-top: 10%;
+	height: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+.modal h1 {
+	font-weight: 400;
+	font-size: 50px;
+}
+.profiles {
+	text-align: center;
+	animation: smoothAppear 3s;
+	animation-timing-function: cubic-bezier(0, 0.1, 1);
+}
+.profile {
+	display: inline-block;
+	padding: 2rem;
+}
+.profile button:hover {
+	border: 3px solid white;
+}
+.profile button {
+	border: 0;
+	width: 200px;
+	height: 200px;
+}

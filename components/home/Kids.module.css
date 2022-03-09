@@ -1,0 +1,36 @@
+.general {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	height: 30rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+.letters {
+	width: 35%;
+	margin-left: 5rem;
+}
+
+.letters h1 {
+	font-size: 3rem;
+	padding-bottom: 1rem;
+}
+
+.letters p {
+	font-size: 1.5rem;
+}
+
+.image {
+	text-align: center;
+	margin-left: 2rem;
+	padding-top: 3rem;
+	width: 33rem;
+}
+
+.underline {
+	background-color: rgb(34, 34, 34);
+	height: 0.5rem;
+}

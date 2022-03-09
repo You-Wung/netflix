@@ -1,0 +1,31 @@
+.nav {
+	height: 6.5rem;
+	background-color: black;
+}
+
+.nav button {
+	position: absolute;
+	top: 1.8rem;
+	right: 3rem;
+	width: 100px;
+	height: 45px;
+	border: rgb(211, 37, 48);
+	font-size: 16px;
+	border-radius: 5px;
+	background-color:rgb(211, 37, 48);
+	color: white;
+}
+
+.nav button:hover {
+	background-color: rgb(251, 37, 48);
+}
+
+
+.logo {
+	position: absolute;
+	width: 12rem;
+	height: auto;
+	top: 1.5rem;
+	left: 2.5rem;
+	cursor: pointer;
+}

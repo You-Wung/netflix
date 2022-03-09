@@ -1,0 +1,108 @@
+.main {
+	margin-top: 13rem;
+	width: 200%;
+	z-index: 100;
+}
+.Top10 {
+	left: 3rem;
+}
+.Top10 h1 {
+	color: white;
+}
+
+.onCon {
+}
+.slider {
+	display: flex;
+	width: 100%;
+	background-color: transparent;
+  transition: all 300ms ease 100ms;
+}
+.con {
+	display: flex;
+	padding-left: 20px;
+	font-size: 6.4vw;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.con h1 {
+	left: 1rem;
+	height: 0rem;
+}
+.rank {
+	box-sizing: border-box;
+	left: -0.5rem;
+	font-size: 0;
+	width: 50%;
+	height: min-content;
+}
+.rank:hover {
+	outline: 10px solid transparent;
+	border: 2px solid white;
+}
+.next {
+	transform:translateX(-50%);
+	transition: transform 300ms ease 100ms;
+}
+.rightBtn:hover {
+	background: linear-gradient( to right, rgba(92, 92, 92, 0) 1%, rgb(58, 58, 58) );
+}
+.leftBtn:hover {
+	background: linear-gradient( to left, rgba(67, 67, 67, 0) 1%, rgb(58, 58, 58) );
+}
+.rightBtn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 50%;
+	height: 100%;
+
+	padding-right: 1rem;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	color: white;
+	z-index: 110;
+	font-size: 40px;
+  transition: transform 300ms ease 100ms;
+}
+.leftBtn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 100%;
+
+	padding-left: 1rem;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	color: white;
+	z-index: 110;
+	font-size: 40px;
+  transition: transform 300ms ease 100ms;
+}
+
+
+
+.con10 {
+	display: flex;
+	top: 30px;
+	left: -10px;
+	font-size: 5vw;
+	padding-right: 7vw;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.con10 h1 {
+	height: 0rem;
+}
+.rank10 {
+	position: absolute;
+	box-sizing: border-box;
+	top: -30px;
+	font-size: 0;
+	right: 1rem;
+	width: 57% !important;
+}
+.rank10:hover{
+	outline: 10px solid transparent;
+	border: 2px solid white;
+}
