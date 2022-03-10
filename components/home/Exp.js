@@ -2,7 +2,7 @@ import classes from './Exp.module.css';
 
 const Exp = () => {
 	return (
-		<div style={{marginTop: "-5rem"}} className={classes.modal}>
+		<div style={{marginTop: "5rem"}} className={classes.modal}>
 			<div className={classes.exp}>
 				<p>
 					Question?&nbsp;Call&nbsp;&nbsp;
